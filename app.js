@@ -10,13 +10,13 @@ const winPatterns = [
 ];
 
 
-let turnO = true; // storing playerO 's turn -> if true playerO 's turn else playerX's
-let boxes = document.querySelectorAll('.box');   // selecting all the boxes having class = box
-let resetBtn = document.querySelector('#reset-btn');  // selecting reset button having id = reset-btn
-let newgameBtn = document.querySelector('#new-btn');  //selecting new game button having id = new-btn
-let msgContainer = document.querySelector('.msg-container');  // selecting msg container
-let msg = document.querySelector('#msg'); // selecting para where display message of winner will be shown (element)
-let count = 0;  //draw counter variable
+let turnO = true; 
+let boxes = document.querySelectorAll('.box');   
+let resetBtn = document.querySelector('#reset-btn');  
+let newgameBtn = document.querySelector('#new-btn');  
+let msgContainer = document.querySelector('.msg-container');  
+let msg = document.querySelector('#msg'); 
+let count = 0;  
 
 boxes.forEach((box) => {
   box.addEventListener('click', () => {
@@ -77,12 +77,10 @@ const winnerCheck = () => {
 
 
 //============================ RESET GAME!!!!!!!!!!!!!!================================
-
-// enable all boxes when new game is started
 const enableBoxes = () => {
   for(box of boxes){
-    box.disabled = false; //to allow access to the buttons(boxes)
-    box.innerText = ""; //resetting the gameboard
+    box.disabled = false; 
+    box.innerText = "";
     box.classList.remove("neon-x", "neon-o");
   }
 }
