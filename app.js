@@ -102,13 +102,3 @@ resetBtn.addEventListener('click', () => {
 
 newgameBtn.addEventListener('click', resetGame);
 
-
-
-
-
-
-
-
-
-
-// I want the same display box but aligned to the side of the game board so that I can see the pattern which led to draw or win both either X or O and also if possible can you give a line effect which cutts through the winning pattern like kids do when either X and O get the winning pattern ?
