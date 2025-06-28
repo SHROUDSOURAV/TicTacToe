@@ -83,6 +83,7 @@ const enableBoxes = () => {
   for(box of boxes){
     box.disabled = false; //to allow access to the buttons(boxes)
     box.innerText = ""; //resetting the gameboard
+    box.classList.remove("neon-x", "neon-o");
   }
 }
 
