@@ -19,17 +19,22 @@ A sleek, interactive **Tic-Tac-Toe** game built using **HTML**, **CSS**, **JavaS
 
 ## 🛠️ Built With
 
-- **HTML5** – Markup structure
-- **CSS3** – Styling and animations
-- **JavaScript (ES6)** – Game logic and interactivity
+- **HTML5** – Markup structure  
+- **CSS3** – Styling and animations  
+- **JavaScript (ES6)** – Game logic and interactivity  
 - **Bootstrap 5** – Responsive layout and utilities
 
 ---
 
 ## 🚀 Getting Started
 
-To run this project locally:
+To try the project instantly in your browser:
+
+🔗 **Live Preview:**  
+[Click here to play now](https://htmlpreview.github.io/?https://github.com/SHROUDSOURAV/TicTacToe/blob/main/index.html)
+
+To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/TicTacToe.git
+   git clone https://github.com/SHROUDSOURAV/TicTacToe.git
