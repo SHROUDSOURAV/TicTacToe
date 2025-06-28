@@ -2,7 +2,7 @@
 
 A sleek, interactive **Tic-Tac-Toe** game built using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**. Designed with a clean UI and intuitive user experience, this browser-based game supports two-player gameplay and dynamically highlights the winning pattern on the board.
 
-![Tic-Tac-Toe Demo Screenshot](demo-screenshot.png) <!-- Replace with actual image path if available -->
+![Tic-Tac-Toe Demo Screenshot](Images/demoImg.png) <!-- Replace with actual image path if available -->
 
 ---
 
